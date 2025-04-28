@@ -4,6 +4,7 @@
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    display: flex
 
     }
     
@@ -80,3 +81,51 @@
     height: 800px;
     flex-shrink: 0;
     }
+
+    #iconeDuby {
+      margin: 20px;
+      cursor: pointer;
+  }
+  
+  #sidebar {
+      width: 250px;
+      box-sizing: border-box;
+  }
+  
+  .sidebar {  
+      background-color: #412884;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      font-size: 24px;
+      width: 250px;
+      height: 100vh;
+      justify-content: space-between;
+  }
+  
+  .parteSidebar {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .parteSidebar > a {
+      gap: 10px;
+      box-sizing: border-box;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      padding-left: 25px;
+      text-decoration: none;
+      color: #f6f6f6;
+  }
+  
+  .parteSidebar a:hover {
+      background-color: #262756;
+  }
+  
+  .iconeSidebar {
+      width: 24px;
+      height: auto;
+      margin: 0;
+      object-fit: cover;
+  }
